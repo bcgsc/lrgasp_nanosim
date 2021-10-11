@@ -10,4 +10,4 @@ Contacts:
 
 **Command to quantify LRGASP challenge 2:**
 
-`/projects/cheny_prj/nanopore/NanoSim/src/read_analysis.py transcriptome -rg lrgasp_grch38_sirvs.fasta.gz -rt lrgasp_gencode_v38_sirvs.fa -i reads.fq -q --no_model_fit --no_intron_retention -c`
+`./read_analysis.py quantify -e trans -rt reference_trans.fa -i reads.fq -t 12`
